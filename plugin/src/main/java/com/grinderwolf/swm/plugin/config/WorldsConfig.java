@@ -13,7 +13,8 @@ import java.util.Map;
 public class WorldsConfig {
 
     @Setting("worlds")
-    private final Map<String, WorldData> worlds = new HashMap<>();
+    private final Map<String, WorldData> worlds = new MinioFakeMap();
+//    private final Map<String, WorldData> worlds = new HashMap<>();
 
     public void save() {
         try {

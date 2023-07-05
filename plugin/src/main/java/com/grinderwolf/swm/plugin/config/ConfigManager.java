@@ -53,7 +53,7 @@ public class ConfigManager {
     }
 
     public static WorldsConfig getWorldConfig() {
-        return worldConfig;
+        return new WorldsConfig();
     }
 
     static YamlConfigurationLoader getWorldConfigLoader() {

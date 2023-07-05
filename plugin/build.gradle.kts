@@ -14,6 +14,8 @@ dependencies {
     implementation("org.bstats:bstats-bukkit:3.0.0")
     implementation("commons-io:commons-io:2.11.0")
     compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
+    implementation("io.minio:minio:8.5.4")
+
 }
 
 tasks {
